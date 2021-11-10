@@ -38,7 +38,7 @@ public class Main {
         // Size
         while (true) {
             // Asks for pizza size
-            System.out.println("Which size would you like?: ");
+            System.out.println("Our pizza base sizes are; small, medium & large, which size would you like?: ");
             sizeChoice = scanner.nextLine();
 
             if (sizeChoice.equalsIgnoreCase("Small")) {
@@ -173,17 +173,5 @@ public class Main {
         System.out.println("~ " + fullName + " ~");
         System.out.println("");
         System.out.println("You have ordered a " + sizeChoice + " pizza with: \n  - " + topChoice + "\n  - " + topChoice2 + "\n  - " + addTopChoice + "\n\nPrice: £" + totalCost);
-
-        ArrayList<Integer> myNumbers = new ArrayList<>();
-
-        for (int i = 0; i < 10; i++) {
-            myNumbers.add(i);
-        }
-
-        Collections.shuffle(myNumbers);
-        myNumbers.add(5, 22);
-
-
-
     }
 }
