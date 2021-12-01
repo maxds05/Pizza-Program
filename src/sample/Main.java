@@ -85,7 +85,7 @@ public class Main {
                 numTops = numTops + 1;
                 break;
             } else {
-                System.out.println("Incorrect input, please enter size again");
+                System.out.println("Incorrect input, please enter a topping we offer");
             }
         }
 
